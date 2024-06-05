@@ -9,3 +9,7 @@ body {
 header {
   display: flex;
 }
+
+.menu {
+  display: flex;
+}
