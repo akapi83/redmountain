@@ -8,6 +8,8 @@ body {
 
 header {
   display: flex;
+  max-width: 1100px;
+  margin-inline: auto;
 }
 
 .menu {
