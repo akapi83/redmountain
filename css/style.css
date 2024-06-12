@@ -20,8 +20,15 @@ header {
 
 .menu {
   display: flex;
+  gap: 30px; /* flexで横並びにした要素同士の間をあける */
   list-style: none;
   padding: 0;
+}
+
+.menu a {
+  color: inherit; /* 文字の色を親要素と同じに */
+  text-decoration: none; /* リンクの下線を消す */
+  font-weight: bold; /* 文字を太字にする */
 }
 
 #hero {
