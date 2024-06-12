@@ -37,3 +37,9 @@ header {
   aspect-ratio: 2/1; /* 箱の縦横の比率を2:1に */
   position: relative; /* 子要素をabsoluteで動かすときの基準になる */
 }
+
+#hero > div {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+}
