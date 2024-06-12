@@ -20,4 +20,5 @@ header {
 
 #hero {
   background-image: url(../img/main_pc.jpg);
+  aspect-ratio: 2/1;
 }
