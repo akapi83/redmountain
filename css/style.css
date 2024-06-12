@@ -17,3 +17,7 @@ header {
   list-style: none;
   padding: 0;
 }
+
+#hero {
+  background-image: url(../img/main_pc.jpg);
+}
