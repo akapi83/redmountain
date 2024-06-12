@@ -1,28 +1,28 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  margin: 0;
+  box-sizing: border-box; /* 要素の幅や高さの基準を境界線基準にする */
+  margin: 0; /* 境界線より外側の余白を0に */
 }
 
 header {
-  display: flex;
-  max-width: 1100px;
-  margin-inline: auto;
-  justify-content: space-between;
-  padding: 10px 20px;
+  display: flex; /* 子要素を横並びにする */
+  max-width: 1100px; /* 箱の最大はばを1100pxに */
+  margin-inline: auto; /* 箱の両サイドの余白を取れる限り最大にとる。->結果、箱が真ん中による */
+  justify-content: space-between; /* 横並びにした子要素の最初と最後のを両端にもっていき、残りは均等に並べる */
+  padding: 10px 20px; /* 箱の内側に余白を上下10px, 左右20px */
 }
 
 .logo {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 20px; /* 文字のサイズを20px */
+  font-weight: bold; /* 文字を太字 */
 }
 
 .menu {
-  display: flex;
+  display: flex; /* 子要素を横並びにする */
   gap: 30px; /* flexで横並びにした要素同士の間をあける */
-  list-style: none;
-  padding: 0;
+  list-style: none; /* リストの黒丸を消す */
+  padding: 0; /* 箱の内側の余白を0 */
 }
 
 .menu a {
