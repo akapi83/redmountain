@@ -43,9 +43,9 @@ header {
   position: absolute; /* 位置を動かす準備 */
   top: 50%; /* heroの箱の上から半分 */
   left: 50%; /* heroの箱の左から半分 */
-  background-color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  transform: translate(-50%, -50%);
-  padding: 20px;
-  border-radius: 15px;
+  transform: translate(-50%, -50%); /* 要素の位置をdiv基準で左に半分、上に半分ずらす */
+  background-color: rgba(0, 0, 0, 0.8); /* 背景の色を黒の半透明 */
+  text-align: center; /* 箱の中の文字を中央にそろえる */
+  padding: 20px; /* 箱の内側に余白 */
+  border-radius: 15px; /* 角丸に */
 }
