@@ -35,4 +35,5 @@ header {
   background-image: url(../img/main_pc.jpg); /* 背景に画像 */
   background-size: cover; /* 背景画像のサイズを箱全体をおおうようにいれる */
   aspect-ratio: 2/1; /* 箱の縦横の比率を2:1に */
+  position: relative; /* 子要素をabsoluteで動かすときの基準になる */
 }
