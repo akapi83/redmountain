@@ -71,9 +71,9 @@ header {
 }
 
 .img_box {
-  width: 30%;
+  width: 30%; /* 幅をabout_boxの30%に */
 }
 
 .text_box {
-  width: 70%;
+  width: 70%; /* 幅をabout_boxの70%に */
 }
