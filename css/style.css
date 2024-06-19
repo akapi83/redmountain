@@ -69,3 +69,11 @@ header {
   max-width: 750px; /* 箱の最大はばを750pxにする */
   margin-inline: auto; /* じつは、margin-left と margin-right が auto */
 }
+
+.img_box {
+  width: 30%;
+}
+
+.text_box {
+  width: 70%;
+}
