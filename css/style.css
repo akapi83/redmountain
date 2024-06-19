@@ -63,6 +63,9 @@ header {
 
 .about_box {
   display: flex; /* 箱の中の子要素を横並びにする */
+  justify-content: center;
+  align-items: center; /* flexで横並びにした子要素の縦方向をまんなかぞろえにする */
+  gap: 20px; /* flex の要素同士のすきまを20pxに */
   max-width: 750px; /* 箱の最大はばを750pxにする */
   margin-inline: auto; /* じつは、margin-left と margin-right が auto */
 }
