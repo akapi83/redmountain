@@ -60,3 +60,9 @@ header {
   text-align: center; /* 箱の中の文字を真ん中に */
   margin-bottom: 20px; /* 箱の外側、下の方向に20px すきま */
 }
+
+.about_box {
+  display: flex; /* 箱の中の子要素を横並びにする */
+  max-width: 750px; /* 箱の最大はばを750pxにする */
+  margin-inline: auto; /* じつは、margin-left と margin-right が auto */
+}
