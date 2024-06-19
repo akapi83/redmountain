@@ -5,6 +5,11 @@
   margin: 0; /* 境界線より外側の余白を0に */
 }
 
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
 header {
   display: flex; /* 子要素を横並びにする */
   max-width: 1100px; /* 箱の最大はばを1100pxに */
@@ -48,4 +53,10 @@ header {
   text-align: center; /* 箱の中の文字を中央にそろえる */
   padding: 20px; /* 箱の内側に余白 */
   border-radius: 15px; /* 角丸に */
+}
+
+.title {
+  font-size: 25px; /* 文字のサイズ25pxに */
+  text-align: center; /* 箱の中の文字を真ん中に */
+  margin-bottom: 20px; /* 箱の外側、下の方向に20px すきま */
 }
