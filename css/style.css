@@ -55,6 +55,19 @@ header {
   border-radius: 15px; /* 角丸に */
 }
 
+#hero h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+}
+
+#about {
+  padding: 80px 20px;
+}
+
 .title {
   font-size: 25px; /* 文字のサイズ25pxに */
   text-align: center; /* 箱の中の文字を真ん中に */
