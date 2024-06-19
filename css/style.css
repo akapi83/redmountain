@@ -74,6 +74,10 @@ header {
   width: 30%; /* 幅をabout_boxの30%に */
 }
 
+.img_box img {
+  border-radius: 50%; /* img_boxの中のimgを、角丸にする */
+}
+
 .text_box {
   width: 70%; /* 幅をabout_boxの70%に */
 }
