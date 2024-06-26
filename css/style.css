@@ -111,3 +111,16 @@ header {
   justify-content: center; /* 並べた要素を中央ぞろえ */
   gap: 10px; /* 要素どうしの間をあける */
 }
+
+.menu_list li {
+ width: 32%; /* 横幅を親の32%に */
+}
+
+.menu_list img {
+  margin-bottom: 10px; /* 画像の下に */
+}
+
+.menu_list h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
