@@ -94,3 +94,7 @@ header {
 .text_box {
   width: 70%; /* 幅をabout_boxの70%に */
 }
+
+.text_box h3 {
+  margin-bottom: 1em; /* 下方向に1文字分のすきま */
+}
