@@ -56,16 +56,16 @@ header {
 }
 
 #hero h1 {
-  font-size: 50px;
-  margin-bottom: 20px;
+  font-size: 50px; /* フォントサイズ 50px */
+  margin-bottom: 20px; /* h1の下にすきま */
 }
 
 #hero p {
-  font-size: 18px;
+  font-size: 18px; /* フォントサイズ 18px */
 }
 
 #about {
-  padding: 80px 20px;
+  padding: 80px 20px; /* div id="about"の箱の内側のすきま */
 }
 
 .title {
