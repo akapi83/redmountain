@@ -124,3 +124,16 @@ header {
   text-align: center; /* 文字をまんなか */
   margin-bottom: 10px; /* 文字の下にすきま */
 }
+
+.more {
+  margin-block: 30px 80px; /* 上に30px 下に80pxのすきま */
+  text-align: center; /* 箱のなかの文字を真ん中寄せ */
+}
+
+.more a {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 1px solid #333;
+  color: inherit;
+  text-decoration: none;
+}
