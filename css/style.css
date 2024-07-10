@@ -69,9 +69,9 @@ header {
 }
 
 .title {
-  font-size: 25px; /* 文字のサイズ25pxに */
-  text-align: center; /* 箱の中の文字を真ん中に */
-  margin-bottom: 20px; /* 箱の外側、下の方向に20px すきま */
+  font-size: 25px; /*文字のサイズ25pxに */
+  text-align: center; /*箱の中の文字を真ん中に*/
+  margin-bottom: 20px; /*箱の外側、下の方向に20px すきま*/
 }
 
 .about_box {
@@ -113,7 +113,7 @@ header {
 }
 
 .menu_list li {
- width: 32%; /* 横幅を親の32%に */
+  width: 32%; /* 横幅を親の32%に */
 }
 
 .menu_list img {
@@ -136,4 +136,11 @@ header {
   border: 1px solid #333; /* 境界線 */
   color: inherit; /* 文字色 */
   text-decoration: none; /* 下線を消す */
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 30px 20px;
 }
